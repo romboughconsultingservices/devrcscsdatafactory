@@ -1,0 +1,9 @@
+{
+	"name": "devrcscsdatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "92b63926-0fbc-4ebc-88a3-6fc45febee00",
+		"tenantId": "7d1ff999-53b9-4fa6-835d-e103218f625d"
+	}
+}
