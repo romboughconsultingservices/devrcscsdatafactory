@@ -1,12 +1,11 @@
 {
 	"name": "AzureDevDB_link",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
-			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=rcscs-dev-sql-server.database.windows.net;initial catalog=AzureDevDB;user id=jeffr@romboughconsultingservices.onmicrosoft.com",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEMyMzE0NEZCLUY2NEMtNEQyOS04NENDLUMwNkZFQ0E3Njk3MF85MTVlMGRkMS05NzJiLTRiZjgtOWUyZS1mZTc0ZmZmNjM1ZTkiDQp9"
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=rcscs-dev-sql-server.database.windows.net;Initial Catalog=AzureDevDB"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
